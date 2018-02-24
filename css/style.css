@@ -98,8 +98,13 @@ img {
 	grid-template-columns: repeat(3, 1fr);
 	padding: 2rem 0 1rem 0;
 }
-.contacts div span{
+.contacts div span {
 	color: #b9b9ba;
+}
+.contacts div a {
+	display: block;
+	margin-top: 5px;
+	color: #9a9b9c;
 }
 .skills {
 	display: grid;
@@ -154,5 +159,8 @@ h3 a:hover {
 	}
 	img {
 		margin: 0;
+	}
+	html {
+		font-size: 20px;
 	}
 }
