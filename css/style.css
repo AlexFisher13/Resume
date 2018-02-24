@@ -155,7 +155,7 @@ h3 a:hover {
 	img {
 		margin: 0;
 	}
-
-
-
+	html {
+		font-size: 0.65rem;
+	}
 }
