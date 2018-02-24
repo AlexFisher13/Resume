@@ -70,7 +70,7 @@ img {
 }
 .box:nth-child(2) {
 	grid-template-columns: 1fr;
-	grid-template-rows: 1.7fr 1fr;
+	grid-template-rows: 1.9fr 1fr;
 	align-items: end;
 }
 .box:first-child {
@@ -164,5 +164,8 @@ h3 a:hover {
 	}
 	html {
 		font-size: 20px;
+	}
+	.head {
+		grid-template-columns:1fr;
 	}
 }
