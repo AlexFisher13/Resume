@@ -95,7 +95,7 @@ img {
 .contacts {
 	border-top: 2px solid #424444;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	padding: 2rem 0 1rem 0;
 }
 .contacts div span{
