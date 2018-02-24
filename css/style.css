@@ -47,7 +47,7 @@ a {
 }
 img {
 	border-radius: 50%;
-	margin: 32vh 20px;
+	/*margin: 32vh 20px;*/
 }
 .box {
 	padding: 50px;
@@ -75,6 +75,9 @@ img {
 }
 .box:first-child {
 	height: 90vh;
+	display: grid;
+	align-items: center;
+	justify-content: end;
 }
 .head {
 	display: grid;
@@ -156,9 +159,8 @@ h3 a:hover {
 	}
 	.box:first-child {
 		height: 100%;
-	}
-	img {
-		margin: 0;
+		justify-content: center;
+		align-items: start;
 	}
 	html {
 		font-size: 20px;
