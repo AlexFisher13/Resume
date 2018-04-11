@@ -172,6 +172,8 @@ img {
 #git{width: 60%;}
 #java{width: 65%;}
 #ph{width: 80%;}
+#react{width: 60%;}
+#redux{width: 65%;}
 
 .exp {
 	grid-template-columns: 2fr 3fr;
