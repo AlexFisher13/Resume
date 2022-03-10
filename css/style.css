@@ -11,6 +11,9 @@ body {
 	grid-template-columns: 2.3fr 5fr;
 }
 span {
+	color: whitesmoke;
+}
+h1 span {
 	color: #dc9e11;
 }
 h1 {
@@ -43,6 +46,7 @@ p {
 	line-height: 1.6rem;
 }
 a {
+	color: whitesmoke;
 	text-decoration: none;
 }
 @keyframes move {
@@ -93,8 +97,7 @@ img {
 	animation: move 2.8s 1;
 }
 .version {
-	text-align: start;
-	padding-left: 40px;
+	text-align: center;
 }
 .version div:nth-child(1) {
 	animation: move 1s 1;
@@ -142,7 +145,8 @@ img {
 }
 .version a {
 	font-size: 15px;
-	color: #9a9b9c;
+	font-weight: 400;
+	color: #6d6e6e;
 	line-height: 2;
 }
 .soc a {
@@ -150,7 +154,7 @@ img {
 	font-size: 30px;
 	color: #9a9b9c;
 }
-.soc a:hover, .version a:hover {
+a:hover, .contacts div a:hover {
 	color: #dc9e11;
 }
 .contacts {
@@ -167,28 +171,6 @@ img {
 	margin-top: 5px;
 	color: #9a9b9c;
 }
-.skills {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-.skills div h3 span {
-	margin-right: 1rem;
-}
-.skills div div {
-	height: 5px;
-	background-color: #dc9e11;
-	margin: 0.8rem 0 2rem 0;
-}
-#js{width: 70%;}
-#html{width: 80%;}
-#ts{width: 35%;}
-#css{width: 70%;}
-#ng{width: 40%;}
-#git{width: 60%;}
-#java{width: 65%;}
-#ph{width: 80%;}
-#react{width: 60%;}
-#redux{width: 65%;}
 
 .exp {
 	grid-template-columns: 2fr 3fr;
@@ -202,12 +184,8 @@ img {
 ol {
 	list-style-type: square;
 }
-h3 a:hover {
-	font-size: 1.6rem;
-	transition: 0.25s;
-}
-.projects h3 {
-	margin-bottom: 2rem;
+h3 a {
+	color: #b9b9ba;
 }
 @media screen and (max-width: 1000px) {
 	body {
@@ -228,4 +206,12 @@ h3 a:hover {
 	.head {
 		grid-template-columns:1fr;
 	}
+}
+.tech {
+	font-size: 1.45rem;
+	font-weight: 300;
+	color: #dc9e11;
+}
+.project ol li {
+	margin-bottom: 1em; /* Расстояние снизу */
 }
